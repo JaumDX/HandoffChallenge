@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75042C4A1F6879E80025D6F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75042C491F6879E80025D6F1 /* AppDelegate.swift */; };
+		75042C4C1F6879E80025D6F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75042C4B1F6879E80025D6F1 /* ViewController.swift */; };
+		75042C4F1F6879E80025D6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75042C4D1F6879E80025D6F1 /* Main.storyboard */; };
+		75042C511F6879E80025D6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75042C501F6879E80025D6F1 /* Assets.xcassets */; };
+		75042C541F6879E80025D6F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75042C521F6879E80025D6F1 /* LaunchScreen.storyboard */; };
+		75042C591F6879E80025D6F1 /* Handoff WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 75042C581F6879E80025D6F1 /* Handoff WatchKit App.app */; };
+		75042C5F1F6879E80025D6F1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75042C5D1F6879E80025D6F1 /* Interface.storyboard */; };
+		75042C611F6879E80025D6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75042C601F6879E80025D6F1 /* Assets.xcassets */; };
+		75042C681F6879E80025D6F1 /* Handoff WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 75042C671F6879E80025D6F1 /* Handoff WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75042C6D1F6879E80025D6F1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75042C6C1F6879E80025D6F1 /* InterfaceController.swift */; };
+		75042C6F1F6879E80025D6F1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75042C6E1F6879E80025D6F1 /* ExtensionDelegate.swift */; };
+		75042C711F6879E80025D6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75042C701F6879E80025D6F1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75042C5A1F6879E80025D6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75042C3E1F6879E80025D6F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75042C571F6879E80025D6F1;
+			remoteInfo = "Handoff WatchKit App";
+		};
+		75042C691F6879E80025D6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75042C3E1F6879E80025D6F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75042C661F6879E80025D6F1;
+			remoteInfo = "Handoff WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75042C781F6879E80025D6F1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				75042C681F6879E80025D6F1 /* Handoff WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75042C7C1F6879E80025D6F1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				75042C591F6879E80025D6F1 /* Handoff WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75042C461F6879E80025D6F1 /* Handoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handoff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75042C491F6879E80025D6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75042C4B1F6879E80025D6F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75042C4E1F6879E80025D6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75042C501F6879E80025D6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75042C531F6879E80025D6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75042C551F6879E80025D6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75042C581F6879E80025D6F1 /* Handoff WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handoff WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75042C5E1F6879E80025D6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		75042C601F6879E80025D6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75042C621F6879E80025D6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75042C671F6879E80025D6F1 /* Handoff WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Handoff WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75042C6C1F6879E80025D6F1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		75042C6E1F6879E80025D6F1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		75042C701F6879E80025D6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75042C721F6879E80025D6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75042C431F6879E80025D6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75042C641F6879E80025D6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75042C3D1F6879E80025D6F1 = {
+			isa = PBXGroup;
+			children = (
+				75042C481F6879E80025D6F1 /* Handoff */,
+				75042C5C1F6879E80025D6F1 /* Handoff WatchKit App */,
+				75042C6B1F6879E80025D6F1 /* Handoff WatchKit Extension */,
+				75042C471F6879E80025D6F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75042C471F6879E80025D6F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75042C461F6879E80025D6F1 /* Handoff.app */,
+				75042C581F6879E80025D6F1 /* Handoff WatchKit App.app */,
+				75042C671F6879E80025D6F1 /* Handoff WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75042C481F6879E80025D6F1 /* Handoff */ = {
+			isa = PBXGroup;
+			children = (
+				75042C491F6879E80025D6F1 /* AppDelegate.swift */,
+				75042C4B1F6879E80025D6F1 /* ViewController.swift */,
+				75042C4D1F6879E80025D6F1 /* Main.storyboard */,
+				75042C501F6879E80025D6F1 /* Assets.xcassets */,
+				75042C521F6879E80025D6F1 /* LaunchScreen.storyboard */,
+				75042C551F6879E80025D6F1 /* Info.plist */,
+			);
+			path = Handoff;
+			sourceTree = "<group>";
+		};
+		75042C5C1F6879E80025D6F1 /* Handoff WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				75042C5D1F6879E80025D6F1 /* Interface.storyboard */,
+				75042C601F6879E80025D6F1 /* Assets.xcassets */,
+				75042C621F6879E80025D6F1 /* Info.plist */,
+			);
+			path = "Handoff WatchKit App";
+			sourceTree = "<group>";
+		};
+		75042C6B1F6879E80025D6F1 /* Handoff WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				75042C6C1F6879E80025D6F1 /* InterfaceController.swift */,
+				75042C6E1F6879E80025D6F1 /* ExtensionDelegate.swift */,
+				75042C701F6879E80025D6F1 /* Assets.xcassets */,
+				75042C721F6879E80025D6F1 /* Info.plist */,
+			);
+			path = "Handoff WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75042C451F6879E80025D6F1 /* Handoff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75042C7D1F6879E80025D6F1 /* Build configuration list for PBXNativeTarget "Handoff" */;
+			buildPhases = (
+				75042C421F6879E80025D6F1 /* Sources */,
+				75042C431F6879E80025D6F1 /* Frameworks */,
+				75042C441F6879E80025D6F1 /* Resources */,
+				75042C7C1F6879E80025D6F1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75042C5B1F6879E80025D6F1 /* PBXTargetDependency */,
+			);
+			name = Handoff;
+			productName = Handoff;
+			productReference = 75042C461F6879E80025D6F1 /* Handoff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75042C571F6879E80025D6F1 /* Handoff WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75042C791F6879E80025D6F1 /* Build configuration list for PBXNativeTarget "Handoff WatchKit App" */;
+			buildPhases = (
+				75042C561F6879E80025D6F1 /* Resources */,
+				75042C781F6879E80025D6F1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75042C6A1F6879E80025D6F1 /* PBXTargetDependency */,
+			);
+			name = "Handoff WatchKit App";
+			productName = "Handoff WatchKit App";
+			productReference = 75042C581F6879E80025D6F1 /* Handoff WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		75042C661F6879E80025D6F1 /* Handoff WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75042C751F6879E80025D6F1 /* Build configuration list for PBXNativeTarget "Handoff WatchKit Extension" */;
+			buildPhases = (
+				75042C631F6879E80025D6F1 /* Sources */,
+				75042C641F6879E80025D6F1 /* Frameworks */,
+				75042C651F6879E80025D6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handoff WatchKit Extension";
+			productName = "Handoff WatchKit Extension";
+			productReference = 75042C671F6879E80025D6F1 /* Handoff WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75042C3E1F6879E80025D6F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jaum;
+				TargetAttributes = {
+					75042C451F6879E80025D6F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					75042C571F6879E80025D6F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					75042C661F6879E80025D6F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 75042C411F6879E80025D6F1 /* Build configuration list for PBXProject "Handoff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75042C3D1F6879E80025D6F1;
+			productRefGroup = 75042C471F6879E80025D6F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75042C451F6879E80025D6F1 /* Handoff */,
+				75042C571F6879E80025D6F1 /* Handoff WatchKit App */,
+				75042C661F6879E80025D6F1 /* Handoff WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75042C441F6879E80025D6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75042C541F6879E80025D6F1 /* LaunchScreen.storyboard in Resources */,
+				75042C511F6879E80025D6F1 /* Assets.xcassets in Resources */,
+				75042C4F1F6879E80025D6F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75042C561F6879E80025D6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75042C611F6879E80025D6F1 /* Assets.xcassets in Resources */,
+				75042C5F1F6879E80025D6F1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75042C651F6879E80025D6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75042C711F6879E80025D6F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75042C421F6879E80025D6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75042C4C1F6879E80025D6F1 /* ViewController.swift in Sources */,
+				75042C4A1F6879E80025D6F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75042C631F6879E80025D6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75042C6F1F6879E80025D6F1 /* ExtensionDelegate.swift in Sources */,
+				75042C6D1F6879E80025D6F1 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75042C5B1F6879E80025D6F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75042C571F6879E80025D6F1 /* Handoff WatchKit App */;
+			targetProxy = 75042C5A1F6879E80025D6F1 /* PBXContainerItemProxy */;
+		};
+		75042C6A1F6879E80025D6F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75042C661F6879E80025D6F1 /* Handoff WatchKit Extension */;
+			targetProxy = 75042C691F6879E80025D6F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75042C4D1F6879E80025D6F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75042C4E1F6879E80025D6F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75042C521F6879E80025D6F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75042C531F6879E80025D6F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		75042C5D1F6879E80025D6F1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75042C5E1F6879E80025D6F1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75042C731F6879E80025D6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75042C741F6879E80025D6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75042C761F6879E80025D6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Handoff WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.Handoff.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		75042C771F6879E80025D6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Handoff WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.Handoff.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		75042C7A1F6879E80025D6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Handoff_WatchKit_Extension;
+				INFOPLIST_FILE = "Handoff WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.Handoff.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		75042C7B1F6879E80025D6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Handoff_WatchKit_Extension;
+				INFOPLIST_FILE = "Handoff WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.Handoff.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		75042C7E1F6879E80025D6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Handoff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.Handoff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		75042C7F1F6879E80025D6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Handoff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.Handoff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75042C411F6879E80025D6F1 /* Build configuration list for PBXProject "Handoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75042C731F6879E80025D6F1 /* Debug */,
+				75042C741F6879E80025D6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75042C751F6879E80025D6F1 /* Build configuration list for PBXNativeTarget "Handoff WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75042C761F6879E80025D6F1 /* Debug */,
+				75042C771F6879E80025D6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75042C791F6879E80025D6F1 /* Build configuration list for PBXNativeTarget "Handoff WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75042C7A1F6879E80025D6F1 /* Debug */,
+				75042C7B1F6879E80025D6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75042C7D1F6879E80025D6F1 /* Build configuration list for PBXNativeTarget "Handoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75042C7E1F6879E80025D6F1 /* Debug */,
+				75042C7F1F6879E80025D6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75042C3E1F6879E80025D6F1 /* Project object */;
+}
