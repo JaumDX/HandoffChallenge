@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7503BB0A1F69B46200C21164 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7503BB091F69B46200C21164 /* DetailsViewController.swift */; };
 		75042C4A1F6879E80025D6F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75042C491F6879E80025D6F1 /* AppDelegate.swift */; };
 		75042C4C1F6879E80025D6F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75042C4B1F6879E80025D6F1 /* ViewController.swift */; };
 		75042C4F1F6879E80025D6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75042C4D1F6879E80025D6F1 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		75042C6D1F6879E80025D6F1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75042C6C1F6879E80025D6F1 /* InterfaceController.swift */; };
 		75042C6F1F6879E80025D6F1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75042C6E1F6879E80025D6F1 /* ExtensionDelegate.swift */; };
 		75042C711F6879E80025D6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75042C701F6879E80025D6F1 /* Assets.xcassets */; };
+		75631C701F69A11F00310A03 /* HapticTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75631C6F1F69A11F00310A03 /* HapticTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7503BB091F69B46200C21164 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		75042C461F6879E80025D6F1 /* Handoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handoff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75042C491F6879E80025D6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75042C4B1F6879E80025D6F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +83,7 @@
 		75042C6E1F6879E80025D6F1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		75042C701F6879E80025D6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75042C721F6879E80025D6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75631C6F1F69A11F00310A03 /* HapticTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				75042C501F6879E80025D6F1 /* Assets.xcassets */,
 				75042C521F6879E80025D6F1 /* LaunchScreen.storyboard */,
 				75042C551F6879E80025D6F1 /* Info.plist */,
+				75631C6F1F69A11F00310A03 /* HapticTypes.swift */,
+				7503BB091F69B46200C21164 /* DetailsViewController.swift */,
 			);
 			path = Handoff;
 			sourceTree = "<group>";
@@ -290,7 +296,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75042C4C1F6879E80025D6F1 /* ViewController.swift in Sources */,
+				75631C701F69A11F00310A03 /* HapticTypes.swift in Sources */,
 				75042C4A1F6879E80025D6F1 /* AppDelegate.swift in Sources */,
+				7503BB0A1F69B46200C21164 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +558,7 @@
 				75042C771F6879E80025D6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75042C791F6879E80025D6F1 /* Build configuration list for PBXNativeTarget "Handoff WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +567,7 @@
 				75042C7B1F6879E80025D6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75042C7D1F6879E80025D6F1 /* Build configuration list for PBXNativeTarget "Handoff" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +576,7 @@
 				75042C7F1F6879E80025D6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
