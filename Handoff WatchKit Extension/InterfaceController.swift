@@ -28,4 +28,43 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    // MARK: - Actions
+    
+    @IBAction func notificationAction() {
+        WKInterfaceDevice.current().play(.notification)
+    }
+    
+    @IBAction func directionUpAction() {
+        WKInterfaceDevice.current().play(.directionUp)
+    }
+    
+    @IBAction func directionDownAction() {
+        WKInterfaceDevice.current().play(.directionDown)
+    }
+    
+    @IBAction func sucessAction() {
+        WKInterfaceDevice.current().play(.success)
+    }
+    
+    @IBAction func failureAction() {
+        WKInterfaceDevice.current().play(.failure)
+    }
+    
+    @IBAction func retryAction() {
+        WKInterfaceDevice.current().play(.retry)
+    }
+    
+    @IBAction func startAction() {
+        WKInterfaceDevice.current().play(.start)
+    }
+    
+    @IBAction func stopAction() {
+        WKInterfaceDevice.current().play(.stop)
+    }
+    
+    @IBAction func clickAction() {
+        WKInterfaceDevice.current().play(.click)
+    }
+    
+    
 }
