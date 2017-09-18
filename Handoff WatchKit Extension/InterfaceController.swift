@@ -15,6 +15,7 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
+        self.updateUserActivity("br.com.jaum.Handoff", userInfo: nil, webpageURL: nil)
         // Configure interface objects here.
     }
     
